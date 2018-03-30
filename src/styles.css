@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+.fc-resource-area {
+    width: 110px !important;
+}
+
+.fc-license-message {
+    display: none;
+}
+
+.fc-event-container {
+    width: 100px !important;
+}
+
+.fc-timeline .fc-head .fc-cell-content .fc-cell-text {
+    width: 300px;
+}
+
+.datepicker .datepicker-inline {
+    z-index: 999;
+    top: 0;
+    left: 5px;
+    position: absolute;
+    display: block;
+    opacity: 1;
+}
+.ui-datepicker.ui-datepicker-inline{
+    position: absolute !important;
+    background: #fff;
+    top: 40px;
+    z-index: 999;
+    border: 1px solid #e0dcdc;
+}

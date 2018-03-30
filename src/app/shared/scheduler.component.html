@@ -1,0 +1,4 @@
+<div *ngIf="showCalendar">
+    <p-calendar [(ngModel)]="scheduleDate" (onSelect)="changeScheduler($event)" [inline]="true"></p-calendar>
+</div>
+<div id='scheduler' [ngStyle]="style" [class]="styleClass"></div>

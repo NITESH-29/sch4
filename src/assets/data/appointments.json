@@ -1,0 +1,41 @@
+{
+    "Result": {
+        "IsOperationSuccess": true,
+        "ScheduledDate": "2018-01-01",
+        "Resources": [
+            {
+                "Id": "1",
+                "Description": "Retail"
+            },
+            {
+                "Id": "2",
+                "Description": "Account"
+            }
+        ],
+        "Appointments": [
+            {
+                "QuoteNumber": "WS1319735",
+                "QuoteStatus": "O",
+                "POSStatus": "I",
+                "AppointmentTime": "2018-01-01 10:30:00 AM",
+                "AppointmentTimeOffset": 5,
+                "WareHouseNotified": 1,
+                "AppointmentSlot": 2,
+                "VehicleStatus": "C",
+                "WarrantyFlag": 0,
+                "BuyoutFlag": 0,
+                "CustomerName": "JOHN NELSON",
+                "PartNumber": "FW02115 GYY   ",
+                "PartDescription": null,
+                "PartNotes": null,
+                "Notes": "NO R/S - JC\n\nCAN'T CF/HUNG UP - SF  WH: ",
+                "InstallDifficulty": 0,
+                "Price": 169,
+                "Priority": 0,
+                "WHOverrideAvailability": 0,
+                "OnlineSchedulePriority": 0,
+                "JobIsReady": 1
+            }
+        ]
+    }
+}
